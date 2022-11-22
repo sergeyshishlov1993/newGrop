@@ -1,0 +1,18 @@
+.hamburger {
+   &__short {
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 25px;
+      height: 3px;
+      background: #BDBDBD;
+      cursor: pointer;
+   }
+   &__long {
+      display: block;
+      width: 36px;
+      height: 3px;
+      background:#BDBDBD;
+      cursor: pointer;
+   }  
+}

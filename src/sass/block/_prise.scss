@@ -1,0 +1,105 @@
+.prise {
+   padding-top: 92px;
+   border-bottom: 1px solid #E0E0E0;
+   &__wrapper {
+      padding: 0 153px 0 103px;
+      margin-top: 55px;
+      display: flex;
+      justify-content: space-between;
+   }
+   &__block {
+      width: 607px;
+      &-left {
+         width: 829px;
+      }
+      &-wrapper {
+         position: relative;
+         padding-left: 8%;
+      }
+   }
+   &__subtitle {
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 56px;
+      color: #000000;
+   }
+   &__text {
+      margin-top: 48px;
+      margin-bottom: 155px;
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 53px;
+      color: #333333;
+   }
+   &__link {
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      color: #FFFFFF;
+      &:hover {
+         color: #FFFFFF;
+      }
+   }
+   &__big {
+      width: 500px;
+      height: 300px;
+   }
+   &__litel {
+      position: absolute;
+      top: -4%;
+      left: 57%;
+      width: 84px;
+      height: 68px;
+   }
+   &__list {
+      position: relative;
+      padding-left: 100px;
+      margin-top: 19px;
+      list-style-type: none;
+      &::before {
+         content: "";
+         position: absolute;
+         left: -21%;
+         bottom: 67%;
+         width: 350px;
+         border: 1px solid #E0E0E0;
+         transform: rotate(90deg);
+      }
+      &::after {
+         content: "";
+         position: absolute;
+         left: 0%;
+         top: 43%;
+         display: block;
+         width: 762px;
+         border: 1px solid #E0E0E0;
+         
+      }
+      &-title {
+         margin-top: 37px;
+         margin-left: 80px;
+         font-weight: 400;
+         font-size: 36px;
+         color: #000000;
+      }
+      li {
+         position: relative;
+         margin-left: 12px;
+         margin-top: 19px;
+         font-weight: 300;
+         font-size: 36px;
+         color: #333333;
+         &::before {
+            content: "";
+            position: absolute;
+            top: 16%;
+            left: -6%;
+            width: 20px;
+            height: 20px;
+            background: #0E0E0E;
+         }
+      }
+   }
+}

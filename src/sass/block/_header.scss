@@ -1,0 +1,10 @@
+.header {
+   padding: 38px 125px 0 103px;
+   height: 104px;
+   background: rgba(0, 0, 0, 0.4);
+   &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+}
