@@ -1,0 +1,102 @@
+.way {
+    padding: 75px 0 28px 0;
+    border: 1px solid #BDBDBD;
+    &__wrapper {
+        padding: 0 50px;
+        margin-top: 101px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 82px;
+    }
+    &__item {
+        position: relative;
+        &-border {
+            &::after {
+                content:"";
+                position: absolute;
+                width: 87px;
+                top: 363px;
+                left: 246px;
+                border: 3px dashed #000000;
+                transform: rotate(90deg);
+            }
+        }
+        &-title {
+            margin-top: 38px;
+            display: flex;
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 145.69%;
+            color: #000000;
+            span {
+                padding: 7px 39px 7px 12px;
+                margin-left: 20px;
+                display: block;
+                background: #FAFF09;
+                height: 52px;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 38px;
+                color: #000000;
+            }
+        }
+        &-descr {
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 147.69%;
+            color: #4F4F4F;
+        }
+    }
+    &__link {
+        position: relative;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 147.69%;
+        text-decoration-line: none;
+        color: #000000;
+        span {
+            margin-right: 6px;
+        }
+        &::before {
+            content :"";
+            position: absolute;
+            top: -4px;
+            left: -7px;
+            width: 24px;
+            height: 24px;
+            background: #FAFF09;
+            border-radius: 100%;
+            z-index: -1;
+        }
+        
+    }
+    &__begin {
+        margin-left: 50px;
+        margin-top: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        height: 112px;
+        border: 1px solid #000000;
+        &-link {
+            position: relative;
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            color: #000000;
+            text-decoration-line: none;
+            &::before {
+                content:"";
+                position: absolute;
+                top: -500px;
+                left: -100px;
+                width: 1610px;
+                border: 3px dashed #000000;
+            }
+           
+        }
+    }
+}

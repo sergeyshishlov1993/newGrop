@@ -1,17 +1,15 @@
 .project {
-   padding-top: 49px;
+   padding: 49px 0 52px 0;
    &__wrapper {
       margin-top: 6px;
       padding: 0 108px 0 84px;
       display: grid;
       grid-template-columns: repeat(3, 32%);
-      grid-template-rows: 660px 480px 438px;
+      grid-template-rows: 660px 480px 250px;
    }
-   &__pictures {
-      img {
+   &__item {
+      img {      
          width: 100%;
-         height: 100%;
-         object-fit: cover;
       }
    }
    &__item-title {
@@ -66,5 +64,17 @@
       &:hover {
          color: white;
       }
+   }
+   &_block {
+      position: relative;
+   }
+   &__position {
+      position: absolute;
+      top: 3153px;
+      left: 646px;
+      width: 1038px;
+      height: 1648px;
+      background: #F5F5F5;
+      z-index: -1;
    }
 }

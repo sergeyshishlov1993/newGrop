@@ -1,0 +1,24 @@
+.form {
+    padding: 81px 118px 0 60px;
+    &__wrapper {
+        margin-top: 14px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 100px;
+    }
+    &__photo {
+        img {
+            width: 100%;
+        }
+    }
+    &__block {
+        
+    }
+    &__title {
+        width: 477px;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 146.69%;
+        color: #000000;
+    }
+}

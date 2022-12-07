@@ -1,0 +1,39 @@
+.sofa {
+    height: 787px;
+    padding-top: 196px;
+    background: url("../../img/sofa/sofa.jpg")center (center / cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    &__title {
+        padding-left: 290px;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 146.69%;
+        color: #FFFFFF;
+    }
+    &__list {
+        display: block;
+        margin: 0 auto;
+        margin-top: 106px;
+        list-style-type: none;
+        li {
+            position: relative;
+            margin-bottom: 17px;
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 146.69%;
+            color: #FFFFFF;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -38px;
+                width: 20px;
+                height: 20px;
+                background: #FFFFFF;
+            }
+        }
+    }
+}

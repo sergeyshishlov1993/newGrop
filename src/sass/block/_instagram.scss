@@ -1,0 +1,14 @@
+.instagram {
+    padding: 90px 90px 50px 100px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+    &__item {
+        img {
+            width: 100%;
+        }
+    }
+}
