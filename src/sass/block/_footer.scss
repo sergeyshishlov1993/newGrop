@@ -1,0 +1,87 @@
+.footer {
+    height: 1053px;
+    padding-top: 103px;
+    &__wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: baseline;
+    }
+    &__big {
+        width: 85%;
+        position: absolute;
+        top: -20px;
+        z-index: -1;
+    }
+    &__litel {
+        position: absolute;
+        top: -11px;
+        left: 860px;
+    }
+    &__wrap-list {
+        padding-top: 430px;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__list-titel {
+        margin-top: 50px;
+        margin-bottom: 41px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 146.19%;
+        color: #FAFF09;
+    }
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            margin-bottom: 12px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 146.19%;
+            color: #F2F2F2;
+        }
+    }
+    &__link-list {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 146.19%;
+        color: #F2F2F2;
+    }
+    &__social {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__up {
+        position: fixed;
+        top: 800px;
+        right: 0;
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 185px;
+            height: 70px;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: #000000;
+            border: 1px solid #000000;
+            text-decoration: none;
+            transform: rotate(-90deg);
+            span {
+                font-size: 50px;
+                margin-left: 15px;
+                transform: rotate(90deg);
+            }
+        }
+    }
+    &__nameplate {
+        position: absolute;
+        bottom: -255px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

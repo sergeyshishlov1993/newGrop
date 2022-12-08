@@ -9,10 +9,9 @@
     &__photo {
         img {
             width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
-    }
-    &__block {
-        
     }
     &__title {
         width: 477px;
@@ -20,5 +19,37 @@
         font-size: 36px;
         line-height: 146.69%;
         color: #000000;
+    }
+    &__text {
+        margin-top: 41px;
+        width: 425px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 146.19%;
+    }
+    &__input {
+        padding: 30px 437px 30px 30px;
+        margin-top: 86px;
+        width: 677px;
+        height: 88px;
+        border: 1px solid #000000;
+        font-weight: 100;
+        font-size: 24px;
+        line-height: 28px;
+        color: #4F4F4F;
+    } 
+    &__police {
+        margin-top: 15px;
+        margin-bottom: 72px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        span {
+            margin-left: 10px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 146.19%;
+            color: #333333;
+        }
     }
 }
