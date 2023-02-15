@@ -17,10 +17,49 @@
       <div class="container-fluid">
          <div class="header">
             <div class="header__wrapper">
+
+               <div class="header__modal header__modal-active">
+                  <div class="header__modal-close">
+                     <span class="header__modal-left"></span>
+                     <span class="header__modal-right"></span>
+                  </div>
+                  <h2 class="header__modal-title">Обратный звонок</h2>
+                  <form action="">
+                     <input type="text" placeholder="Ваше имя" id="inputModal">
+                     <input type="text" placeholder="Номер телефона" id="inputModal">
+                     <div class="button button_modal">Позвонить мне</div>
+                  </form>
+               </div>
+
                <div class="hamburger">
                   <span class="hamburger__long"></span>
                   <span class="hamburger__short"></span>
                   <span class="hamburger__long"></span>
+               </div>
+
+               <div class="header__menu-close">
+                  <span class="header__menu-left"></span>
+                  <span class="header__menu-rights"></span>
+               </div>
+
+               <div class="header__menu header__menu-active">
+                  <div class="header__menu-wrapper">
+                     <ul class="header__menu-list">
+                        <li class="header__menu-item"><a href="#1">Главная</a></li>
+                        <li class="header__menu-item"><a href="#">3D-Дизайн</a></li>
+                        <li class="header__menu-item"><a href="#">Ремонт</a></li>
+                        <li class="header__menu-item"><a href="#">Строительство</a></li>
+                        <li class="header__menu-item"><a href="#">Проекты</a></li>
+                        <li class="header__menu-item"><a href="#">Ландшафтный дизайн</a></li>
+                     </ul>
+                     <div class="header__menu-link">
+                        <a href="#"><img src="icons/menuIcons/insta.svg" alt="d"></a>
+                        <a href="#"><img src="icons/menuIcons/vk.svg" alt="v"></a>
+                        <a href="#"><img src="icons/menuIcons/facebook.svg" alt="j"></a>
+                     </div>
+                     <div class="header__menu__overlay"></div>
+                  </div>
+
                </div>
    
                <div class="header__logo">
@@ -37,17 +76,17 @@
 
          <h1 class="promo__title">Лучшее для лучших</h1>
          <div class="promo__wrapper">
-            <div class="button">
+            <div class="button" id="btn">
                <a href="#" class="promo__link">Проекты</a>
             </div>
-            <div class="button">
+            <div class="button" id="btn">
                <a href="#" class="promo__link">Расчитать стоимость</a>
             </div>
          </div>
       </div>
    </section>
 
-   <section class="about">
+   <section class="about" id="1">
       <div class="container-fluid">
          <div class="about__wrapper">
 
@@ -459,6 +498,7 @@
    </footer>
 
    <!-- JavaScript Bundle with Popper -->
+   <script src="js/main.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

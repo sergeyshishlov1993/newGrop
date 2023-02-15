@@ -6,6 +6,7 @@
       height: 77px;
       background: rgba(17, 17, 17, 0.6);
       border: 1px solid #C4C4C4;
+      visibility: visible;
       &:hover {
          background: rgba(17, 17, 17, 0.9);
       }
@@ -17,5 +18,15 @@
             line-height: 42px;
             text-align: center;
             color: #F2F2F2;
+      }
+      &_modal {
+            width: 619px;
+            height: 114px;
+            background: #FAFF09;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            color: #000000;
       }
 }
